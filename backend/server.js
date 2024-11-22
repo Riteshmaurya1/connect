@@ -16,7 +16,6 @@ app.use(cors());
 // Route
 app.get("/", (req, res) => {
   res.send("You are at the Home Page");
-  console.log("server is ready");
 });
 
 
