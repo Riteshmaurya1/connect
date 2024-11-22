@@ -12,11 +12,11 @@ const app = express();
 app.use(cors());
 
 
-
+app.use(express.static('dist'));
 // Route
-app.get("/", (req, res) => {
-  res.send("You are at the Home Page");
-});
+// app.get("/", (req, res) => {
+//   res.send("You are at the Home Page");
+// });
 
 
 // Route
