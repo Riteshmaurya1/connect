@@ -20,7 +20,7 @@ app.use(express.static('dist'));
 
 
 // Route
-app.get("/api/jokes", (req, res) => {
+app.get("https://connect-msii.vercel.app/api/jokes", (req, res) => {
   const jokes = [
     {
       id: 1,
